@@ -1,0 +1,82 @@
+/* general */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+/* utility */
+
+.debug{
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* main */
+main .meet-our{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+main .meet-our h1{
+  font-size: 40px;
+  color: #e53170;
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+main .meet-our p{
+  font-size: 18px;
+}
+
+main .card .raw{
+  margin-bottom: 50px;
+}
+
+main .card .raw .col{
+  width: calc(100% / 3 - 20px);
+  float: left;
+  background-color: #0f0e17;
+  color: #fffffe;
+  box-shadow: 3px 3px  #d0d0cf;
+}
+
+main .card .raw .col img{
+  float: left;
+  width: 100px;
+}
+
+main .card .raw .col .list-right-img{
+  float: left;
+  list-style: none;
+  padding: 0 20px 0 10px;
+}
+
+main .card .raw .col .list-right-img li{
+  padding: 5px 0 5px 0;
+}
+
+main .card .raw .col .list-right-img li:last-child{
+  color: #6ecbf2;
+}
+.card .raw .col .list-right-img li h3{
+  text-transform: uppercase;
+}
+
+.raw .col:nth-child(2){
+  margin: 0 30px 0 30px;
+}
