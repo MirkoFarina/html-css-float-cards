@@ -50,9 +50,10 @@ main .card .raw{
 main .card .raw .col{
   width: calc(100% / 3 - 20px);
   float: left;
+  min-width: 310px;
   background-color: #0f0e17;
   color: #fffffe;
-  box-shadow: 3px 3px  #d0d0cf;
+  box-shadow: 0px 0px 10px rgba(0,0,0, .5);
 }
 
 main .card .raw .col img{
